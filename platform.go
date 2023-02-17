@@ -173,6 +173,7 @@ var (
 
 	Platforms_1_17 = addDrop(Platforms_1_16, []Platform{
 		{"windows", "arm64", true},
+   {"linux", "e2k", true},
 	}, nil)
 
 	// no new platforms in 1.18
