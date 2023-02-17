@@ -1,4 +1,4 @@
-module github.com/mitchellh/gox
+module github.com/balaant/gox-e2k
 
 go 1.17
 
