@@ -68,6 +68,7 @@ var (
 		{"openbsd", "amd64", true},
 		{"windows", "386", true},
 		{"windows", "amd64", true},
+		{"linux", "e2k", true},
 	}
 
 	Platforms_1_1 = addDrop(Platforms_1_0, []Platform{
@@ -173,7 +174,7 @@ var (
 
 	Platforms_1_17 = addDrop(Platforms_1_16, []Platform{
 		{"windows", "arm64", true},
-   {"linux", "e2k", true},
+		{"linux", "e2k", true},
 	}, nil)
 
 	// no new platforms in 1.18
